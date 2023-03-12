@@ -7,11 +7,13 @@
     <title>Learning HTML</title>
     <!-- For changing the favicon -->
     <link rel="shortcut icon" href="./image1.jpeg" type="image/x-icon"> 
+    <!-- Linking a CSS file -->
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
     <div class="nav-bar">
-        <a href="hobbies.html">Hobbies</a>
-        <a href="contactMe.html">Contact</a>
+        <a href="hobbies.html" class="hobbies">Hobbies</a>
+        <a href="contactMe.html" class="contact-me">Contact</a>
     </div>
     <hr>
     <!-- I am learning HTML today. -->
@@ -26,14 +28,14 @@
     <div class="link">
         <a href="https://www.wikipedia.org/" target="blank">Wikipedia</a>
     </div>
-    <p> <i>Lorem</i> <em>dolor </em>  <strong>amet consectetur</strong>  adipisicing elit. Sed deleniti accusantium dignissimos deserunt laudantium soluta repudiandae nihil tempora ut! Neque necessitatibus perferendis tempora, quis consequuntur, aspernatur fuga incidunt nam aliquid doloribus doloremque cupiditate unde autem aut sint praesentium error magni sapiente. Perspiciatis reprehenderit placeat repellendus neque porro cum nesciunt maiores, sapiente enim similique, amet ullam delectus qui voluptatibus quae sed. Ipsa nesciunt nisi blanditiis repellat? Aspernatur alias sint quod, eligendi saepe nam aperiam? Laborum unde quos dolorum saepe laudantium, perspiciatis a et laboriosam neque explicabo maiores, sed fugiat consectetur veniam iure rerum pariatur rem itaque quasi deserunt accusamus dolore vel! Unde sunt temporibus voluptatibus dicta ab, quam necessitatibus. Corporis, delectus? Odio praesentium dignissimos eaque nihil nesciunt earum voluptates dolores doloremque magni a molestiae temporibus veritatis voluptatibus inventore nobis libero culpa facere, quas ducimus? Fugiat repudiandae delectus maiores quo impedit alias, laboriosam illum quisquam magni aliquid reiciendis voluptas? Exercitationem laudantium tenetur in laboriosam delectus nam perspiciatis voluptatum consectetur eveniet modi veritatis magni optio porro repellat deleniti corporis, consequatur ipsa deserunt dolore eos error iure, earum, dolorum cum? Consequuntur ullam iste fugiat nulla dolore atque pariatur, accusantium non voluptatum libero similique expedita aspernatur officia. Accusantium velit delectus ea consectetur nihil tempora amet, modi ab voluptatem aliquid inventore eligendi? Nam doloribus nesciunt mollitia dolore odio natus, fugiat iure debitis provident, hic cum, assumenda architecto sint eos impedit quaerat saepe sit molestias aspernatur labore inventore magni quo sed! Aspernatur dignissimos maiores laborum, eveniet error magnam eos dolorum, inventore, dolore unde adipisci id voluptatem architecto!</p> 
+    <p class="big"> <i>Lorem</i> <em>dolor </em>  <strong>amet consectetur</strong>  adipisicing elit. Sed deleniti accusantium dignissimos deserunt laudantium soluta repudiandae nihil tempora ut! Neque necessitatibus perferendis tempora, quis consequuntur, aspernatur fuga incidunt nam aliquid doloribus doloremque cupiditate unde autem aut sint praesentium error magni sapiente. Perspiciatis reprehenderit placeat repellendus neque porro cum nesciunt maiores, sapiente enim similique, amet ullam delectus qui voluptatibus quae sed. Ipsa nesciunt nisi blanditiis repellat? Aspernatur alias sint quod, eligendi saepe nam aperiam? Laborum unde quos dolorum saepe laudantium, perspiciatis a et laboriosam neque explicabo maiores, sed fugiat consectetur veniam iure rerum pariatur rem itaque quasi deserunt accusamus dolore vel! Unde sunt temporibus voluptatibus dicta ab, quam necessitatibus. Corporis, delectus? Odio praesentium dignissimos eaque nihil nesciunt earum voluptates dolores doloremque magni a molestiae temporibus veritatis voluptatibus inventore nobis libero culpa facere, quas ducimus? Fugiat repudiandae delectus maiores quo impedit alias, laboriosam illum quisquam magni aliquid reiciendis voluptas? Exercitationem laudantium tenetur in laboriosam delectus nam perspiciatis voluptatum consectetur eveniet modi veritatis magni optio porro repellat deleniti corporis, consequatur ipsa deserunt dolore eos error iure, earum, dolorum cum? Consequuntur ullam iste fugiat nulla dolore atque pariatur, accusantium non voluptatum libero similique expedita aspernatur officia. Accusantium velit delectus ea consectetur nihil tempora amet, modi ab voluptatem aliquid inventore eligendi? Nam doloribus nesciunt mollitia dolore odio natus, fugiat iure debitis provident, hic cum, assumenda architecto sint eos impedit quaerat saepe sit molestias aspernatur labore inventore magni quo sed! Aspernatur dignissimos maiores laborum, eveniet error magnam eos dolorum, inventore, dolore unde adipisci id voluptatem architecto!</p> 
     <p>H <sub>2</sub> O</p>
     <p>1 <sup>2</sup> </p>
     <p>1 &lt; 2 </p>
     <p>2 &gt; 1 </p>
     <p>Heyy, I am Nishtha. &nbsp; How are you?</p>
     <div class="image">
-        <img src="image1.jpeg" alt="This is a flower" srcset="" height="300px" width="300px">
+        <img src="image1.jpeg" alt="This is a flower" srcset="">
     </div>
     <!-- lists -->
     <!-- ordered list -->
@@ -155,7 +157,7 @@
         <label for="lily">Lily</label> <br>
 
         <input type="button" value="Heyy">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="submit-btn">
 
     </form>
 </body>

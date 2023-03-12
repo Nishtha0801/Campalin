@@ -1,0 +1,45 @@
+h1{
+    color: brown;
+}
+a{
+    color: violet;
+}
+p{
+    border: 2px solid green;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+li{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    /* font-size: 30px; */
+}
+caption{
+    font-size: 25px;
+    color: teal;
+}
+.submit-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 20%;
+    background-color: gray;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+th{
+    font-style: italic;
+}
+.hobbies{
+    margin-right: 30px;
+}
+.contactMe{
+    margin: 30px;
+}
+.big{
+    padding-left: 30px;
+}
