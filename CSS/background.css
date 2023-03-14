@@ -1,0 +1,50 @@
+/* universal selector */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* class selector */
+.container{ 
+    height: 80vh;
+    width: 100vw;
+    /* background-color: teal; */
+    background-image: url("../HTML/image1.jpeg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+}
+.container2{
+    height: 20vh;
+}
+
+/* id selector */
+#paragraph1{
+    color: darkcyan;
+}
+#paragraph2{
+    color: darkmagenta;
+}
+
+.common{
+    font-size: 40px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+/* descendent selector */
+.container span{
+    color: yellow;
+}
+
+/* child selector */
+.container2 > p{
+    font-size: 20px;
+    color: tomato;
+}
+
+/* Sibling selector */
+.container2 + p{
+    background-color: brown;
+}

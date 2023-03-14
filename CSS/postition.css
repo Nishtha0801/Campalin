@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+}
+.green{
+    background-color: green;
+    
+}
+
+/* The default position is static */
