@@ -10,11 +10,13 @@ div{
 }
 .red{
     background-color: red;
+    position: sticky;
+    top: 0px;
 }
 .blue{
     background-color: blue;
-    position: absolute;
-    left: 100px;
+    /* position: sticky; */
+    /* left: 100px; */
 }
 .green{
     background-color: green;
