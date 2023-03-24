@@ -1,0 +1,29 @@
+.green{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    transition: width 2s, height 4s;
+    /* transform: translate(80px, 120px); */
+    /* transform: rotate(35deg); */
+    /* transform: rotateX(70deg);  */
+    /* transform: scale(3,4); */
+    /* skew, matrix => explore yourself */ 
+    
+}
+.green:hover{
+    width: 500px ;
+    height: 400px;
+    border-radius: 50%;
+}
+.text{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    transition: font-size 3s;
+}
+.text:hover{
+    font-size: 20px;
+}
