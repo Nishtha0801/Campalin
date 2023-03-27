@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    display: grid;
+    
+    grid-template-columns: 200px auto 100px;
+    grid-template-rows: 200px auto 100px;
+}
+.box-1, .box-2, .box-3, .box-4, .box-5{
+   border: 2px solid black;
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

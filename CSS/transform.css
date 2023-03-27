@@ -2,7 +2,11 @@
     height: 200px;
     width: 200px;
     background-color: green;
-    transition: width 2s, height 4s;
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; -> sxplore yourself*/ 
+    /* transition: width 2s, height 4s; */
     /* transform: translate(80px, 120px); */
     /* transform: rotate(35deg); */
     /* transform: rotateX(70deg);  */
@@ -10,7 +14,40 @@
     /* skew, matrix => explore yourself */ 
     
 }
-.green:hover{
+
+/* @keyframes anim {
+    from {
+        background-color: green;
+    } 
+    to {
+        background-color: yellow;
+    }
+} */
+
+@keyframes anim2 {
+   0%{
+    background-color: green;
+    height: 200px;
+    transform: rotate(0deg);
+   } 
+   25% {
+    background-color: yellow;
+    height: 250px;
+    transform: rotate(30deg);
+   } 
+   50% {
+    background-color: blue;
+    height: 300px;
+    transform: rotate(60deg);
+   }
+   100% {
+    background-color: red;
+    height: 50px;
+    transform: rotate(90deg);
+   }
+}
+
+/* .green:hover{
     width: 500px ;
     height: 400px;
     border-radius: 50%;
@@ -26,4 +63,4 @@
 }
 .text:hover{
     font-size: 20px;
-}
+} */
