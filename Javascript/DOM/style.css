@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#clickMe{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#create{
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newElements{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newEle{
+    height: 50px;
+    width: 300px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+}
