@@ -2,20 +2,26 @@ const express = require("express");
 
 const app = express();
 
+// middleware
 app.use(express.json());
+
+let users = [];
 
 app.get("/", (req, res) => {
     // res.send("hello world!")
-    res.sendFile(__dirname + '/express.html');
+    // res.sendFile(__dirname + '/express.html');
+    res.send(users);
 });
 
 app.post("/", (req,res) => {
     //  res.send("I am a post request");
-    let data = req.body;
-    console.log(data);
+    let user = req.body;
+    users.push(user);
+    console.log(user);
     res.json({
         message : "data received successfully",
-        data : req.body,
+        user : req.body,
+        users : users,
     })
 });
 
